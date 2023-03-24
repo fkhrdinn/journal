@@ -6,6 +6,10 @@
     "routes": [{
         "src": "/(.*)",
         "dest": "/api/index.php" 
+    },
+    {
+        "src":"/build(.)",
+        "dest":"/public/assets/"
     }],
     "env": {
         "APP_ENV": "production",
