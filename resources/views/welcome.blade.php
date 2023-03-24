@@ -11,9 +11,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        <!--@vite(['resources/js/app.js'])-->
-        <link href="{{ asset('build/assets/app-67dcdfd2.css') }}" rel="stylesheet">
-        <script src="{{ asset('build/assets/app-93f87ae8.js') }}" defer></script>
+        @vite(['resources/js/app.js'])
     </head>
     <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
